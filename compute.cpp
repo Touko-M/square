@@ -1,10 +1,9 @@
 #include "compute.h"
 
 int square(int n) {
-    return n * n;
+    return n * n;  // Palauttaa n:n neliön
 }
 
-// Lisää myöhemmin: Cube-funktio
-// int cube(int n) {
-//     return n * n * n;
-// }
+int cube(int n) {
+    return n * n * n;  // Palauttaa n:n kuution
+}

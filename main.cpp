@@ -9,9 +9,8 @@ int main() {
     int result = square(n);
     std::cout << "Square: " << result << std::endl;
 
-    // Lisää myöhemmin: Cube-tulostus
-    // result = cube(n);
-    // std::cout << "Cube: " << result << std::endl;
+    result = cube(n);  // Laskee ja tulostaa kuution
+    std::cout << "Cube: " << result << std::endl;
 
     return 0;
 }
